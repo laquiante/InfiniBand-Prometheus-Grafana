@@ -1,3 +1,13 @@
+Keywords:
+
+InfiniBand
+IB
+Prometheus
+Grafana
+Ubnutu
+ConnectX
+
+
 Demo to show how all InfiniBand Counters of the whole fabric can be imported into Prometheus and visualized via Grafana.
 
 My lab data source: Dell XPS-15 | 22.04 LTS | In-Box OFED | Mellanox ConnectX-5
