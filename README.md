@@ -1,5 +1,6 @@
 Demo to show how all InfiniBand Counters of the whole fabric can be imported into Prometheus and visualized via Grafana.
-Data Source: Dell XPS-15 | 22.04 LTS | In-Box OFED | Mellanox ConnectX-5
+
+My lab data source: Dell XPS-15 | 22.04 LTS | In-Box OFED | Mellanox ConnectX-5
 
 ![grafik](https://github.com/laquiante/InfiniBand-Prometheus-Grafana/assets/33266194/97523051-42a9-4d29-94e8-91feb6642b0e)
 
