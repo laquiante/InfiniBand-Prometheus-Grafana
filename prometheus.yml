@@ -1,0 +1,39 @@
+# Demo 05-MÄRZ-2024 (Kundenworkshop)
+# Hamburg
+# 
+
+# my global config
+global:
+  scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 min>
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this co>
+  - job_name: "prometheus"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # Alle Counter der gesamten IB Fabric
+  # !!! huge !!!
+  - job_name: "infiniband-alq1"
+    static_configs:
+      - targets: ["192.168.x.xxx:9004"]
+
+  # Beispiel Exporter in Python3
+  - job_name: "infiniband-alq2"
+    static_configs:
+      - targets: ["192.168.x.xxx:4789"]
+
+  # Beispiel Standard
+  - job_name: "node_exporter_EVE_NG_laptop"
+    scrape_interval: 5s
+    scrape_timeout: 5s
+    static_configs:
+      - targets: ["192.168.x.xxx:9100"]
