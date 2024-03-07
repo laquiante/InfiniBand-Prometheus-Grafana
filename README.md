@@ -19,5 +19,6 @@ Simple flow of information:
 
 Setup external monitoring:
 (works for both Ethernet (e.g. EVPN/EVPN-MLAG/EVPN-MH) and InfiniBand (e.g. hosts connected to a FTREE))
-![grafik](https://github.com/laquiante/InfiniBand-Prometheus-Grafana/assets/33266194/3d52b495-196e-452f-a718-297da0d308f6)
+![grafik](https://github.com/laquiante/InfiniBand-Prometheus-Grafana/assets/33266194/b312ecc7-ba58-4ae8-b9ba-3e543db81719)
+
 
