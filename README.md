@@ -17,4 +17,6 @@ My lab data source: Dell XPS-15 | 22.04 LTS | In-Box OFED | Mellanox ConnectX-5
 Simple flow of information:
 ![grafik](https://github.com/laquiante/InfiniBand-Prometheus-Grafana/assets/33266194/c9fa8b7d-9c23-45db-ae9a-75a060fee82e)
 
+Setup external monitoring:
+![grafik](https://github.com/laquiante/InfiniBand-Prometheus-Grafana/assets/33266194/3d52b495-196e-452f-a718-297da0d308f6)
 
